@@ -1,0 +1,32 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+debug.log
+drift.log
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+
+# Local .env files
+.env
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Azure Pipelines
+*.azure-pipelines*
+
+# Backup files
+*~
+*.bak
+
+# Ignore plan output
+*.plan
